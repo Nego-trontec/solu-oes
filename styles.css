@@ -68,6 +68,10 @@ footer .contact-info {
 footer .contact-info a {
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s;
 }
 footer .contact-info a:hover {
     color: #0dc143; /* Cor do WhatsApp */
@@ -76,7 +80,7 @@ footer .contact-info i {
     font-size: 24px;
     transition: transform 0.3s;
 }
-footer .contact-info i:hover {
+footer .contact-info a:hover i {
     transform: scale(1.2);
     color: #0dc143;
 }
